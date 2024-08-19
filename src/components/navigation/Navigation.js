@@ -5,7 +5,7 @@ import avatar from "../../img/avatar1.jpeg";
 import { menuItems } from "../../utils/menuItems";
 import { signout } from "../../utils/icons";
 
-function Navigation({active, setActive}) {
+function Navigation({ active, setActive }) {
   return (
     <NavStyled>
       <div className="user-con">
